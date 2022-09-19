@@ -1,0 +1,12 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": { "text": "Data Scientist Salary" },
+    "data": {
+        "url": "../data/ds_salaries.csv"
+    },
+    "mark": "bar",
+    "encoding": {
+        "x": { "field": "work_year", "type": "quantitative" },
+        "y": { "field": "salary_in_usd", "type": "quantitative" }
+    }
+}
