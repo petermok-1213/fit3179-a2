@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,name,salary_in_usd
 0,Afghanistan,0
 1,Åland Islands,0
@@ -248,3 +249,63 @@
 246,Yemen,0
 247,Zambia,0
 248,Zimbabwe,0
+=======
+employee_residence,salary_in_usd
+Algeria,100000
+Argentina,60000
+Australia,108043
+Austria,76739
+Belgium,85699
+Bolivia,75000
+Brazil,54635
+Bulgaria,80000
+Canada,97085
+Chile,40038
+China,43331
+Colombia,21844
+Croatia,45618
+Czechia,69999
+Denmark,37252
+Estonia,32974
+France,59887
+Germany,85553
+Greece,56331
+Honduras,20000
+Hong Kong,66022
+Hungary,35997
+India,37322
+Iran,4000
+Iraq,100000
+Ireland,71444
+Italy,61600
+Japan,103538
+Jersey,100000
+Kenya,9272
+Luxembourg,59102
+Malaysia,200000
+Malta,28369
+Mexico,18185
+Moldova,18000
+Netherlands,60957
+New Zealand,125000
+Nigeria,30000
+Pakistan,27463
+Philippines,45760
+Poland,56178
+Portugal,42862
+Puerto Rico,160000
+Romania,51419
+Russia,105750
+Serbia,25532
+Singapore,104176
+Slovenia,63831
+Spain,57593
+Switzerland,122346
+Tunisia,31875
+Turkey,20097
+Ukraine,13400
+United Arab Emirates,100000
+United Kingdom,81403
+United States of America,149194
+Vietnam,30800
+>>>>>>> 89c115aed72090950e7be84d44c4d6543d5ac61b
