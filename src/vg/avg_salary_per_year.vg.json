@@ -1,0 +1,28 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 400,
+    "title": "Average Data Science Job Salary per Country",
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/petermok-1213/fit3179-a2/main/data/country_year_mean_salary.csv"
+    },
+  
+    "mark": {"type": "line"},
+  
+    "encoding": {
+      "x": {
+        "field": "work_year",
+        "type": "ordinal"
+      },
+      "y": {
+        "field": "salary_in_usd",
+        "type": "quantitative"
+      },
+      "color": {
+        "field": "employee_residence",
+        "type": "nominal"
+      }
+    }
+    
+  }
