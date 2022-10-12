@@ -104,7 +104,7 @@
 102,Iceland,0
 103,India,37322
 104,Indonesia,0
-105,Iran (Islamic Republic of),4000
+105,Iran,4000
 106,Iraq,100000
 107,Ireland,71444
 108,Isle of Man,0
@@ -117,8 +117,8 @@
 115,Kazakhstan,0
 116,Kenya,9272
 117,Kiribati,0
-118,Korea (Democratic People's Republic of),0
-119,"Korea, Republic of",0
+118,South Korea,0
+119,North Korea,0
 120,Kuwait,0
 121,Kyrgyzstan,0
 122,Lao People's Democratic Republic,0
@@ -144,7 +144,7 @@
 142,Mayotte,0
 143,Mexico,18185
 144,Micronesia (Federated States of),0
-145,"Moldova, Republic of",18000
+145,Moldova,18000
 146,Monaco,0
 147,Mongolia,0
 148,Montenegro,0
@@ -169,7 +169,7 @@
 167,Oman,0
 168,Pakistan,27463
 169,Palau,0
-170,"Palestine, State of",0
+170,Palestine,0
 171,Panama,0
 172,Papua New Guinea,0
 173,Paraguay,0
@@ -182,7 +182,7 @@
 180,Qatar,0
 181,Réunion,0
 182,Romania,51419
-183,Russian Federation,105750
+183,Russia,105750
 184,Rwanda,0
 185,Saint Barthélemy,0
 186,"Saint Helena, Ascension and Tristan da Cunha",0
