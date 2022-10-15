@@ -1,28 +1,32 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
-    "height": 400,
-    "title": "Average Data Science Job Salary per Country",
-  
-    "data": {
-      "url": "https://raw.githubusercontent.com/petermok-1213/fit3179-a2/main/data/out/year_mean_salary.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 400,
+  "title": "Top 5 highest paying countries",
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/petermok-1213/fit3179-a2/main/data/out/top5_year_salaray.csv"
+  },
+
+  "mark": {"type":"line"},
+
+  "encoding": {
+    "x": {
+      "field": "work_year",
+      "type": "ordinal",
+      "title": "Year"
     },
-  
-    "mark": {"type": "line"},
-  
-    "encoding": {
-      "x": {
-        "field": "work_year",
-        "type": "ordinal"
-      },
-      "y": {
-        "field": "salary_in_usd",
-        "type": "quantitative"
-      },
-      "color": {
-        "field": "employee_residence",
-        "type": "nominal"
+    "y": {
+      "field": "salary_in_usd",
+      "type": "quantitative",
+      "title": "Salary in USD"
+    },
+    "color": {
+      "field": "employee_residence",
+      "type": "nominal",
+      "legend": {
+        "title": "Country"
       }
     }
-    
-  }
+  } 
+}
