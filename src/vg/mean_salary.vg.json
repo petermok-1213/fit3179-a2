@@ -18,7 +18,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/petermok-1213/fit3179-a2/main/data/country_mean_salary.csv"
+          "url": "https://raw.githubusercontent.com/petermok-1213/fit3179-a2/main/data/out/mean_salary.csv"
         },
         "key": "name",
         "fields": ["salary_in_usd"]

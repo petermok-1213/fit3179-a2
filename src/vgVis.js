@@ -1,7 +1,7 @@
 window.onload = (event) => {
-    let vis1 = "./vg/avg_sal_workyear.vg.json"
-    let mapVis = "./vg/avg_salary_country.vg.json"
-    let salPerYearPercountry = "./vg/avg_salary_per_year.vg.json"
+    let vis1 = "./vg/avgsal_workyear.vg.json"
+    let mapVis = "./vg/mean_salary.vg.json"
+    let yearMeanLineChart = "./vg/year_mean_salary.vg.json"
 
     vegaEmbed("#vg1", vis1).then((result) => {
 
@@ -11,7 +11,7 @@ window.onload = (event) => {
 
     }).catch(console.error)
 
-    vegaEmbed("#salary-year-country", salPerYearPercountry).then((result) => {
+    vegaEmbed("#salary-year-country", yearMeanLineChart).then((result) => {
 
     }).catch(console.error)
 }
