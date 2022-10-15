@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 400,
+  "title": "Lowest Paying Countries",
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/petermok-1213/fit3179-a2/main/data/out/bot5_year_salary.csv"
+  },
+
+  "mark": {"type":"line"},
+
+  "encoding": {
+    "x": {
+      "field": "work_year",
+      "type": "ordinal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "salary_in_usd",
+      "type": "quantitative",
+      "title": "Salary in USD"
+    },
+    "color": {
+      "field": "employee_residence",
+      "type": "nominal",
+      "legend": {
+        "title": "Country"
+      }
+    }
+  } 
+}

@@ -5,7 +5,7 @@
   "title": "Top 5 highest paying countries",
 
   "data": {
-    "url": "https://raw.githubusercontent.com/petermok-1213/fit3179-a2/main/data/out/top5_year_salaray.csv"
+    "url": "https://raw.githubusercontent.com/petermok-1213/fit3179-a2/main/data/out/top5_year_salary.csv"
   },
 
   "mark": {"type":"line"},
