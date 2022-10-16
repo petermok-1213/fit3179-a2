@@ -21,19 +21,24 @@
           "url": "https://raw.githubusercontent.com/petermok-1213/fit3179-a2/main/data/out/mean_salary.csv"
         },
         "key": "name",
-        "fields": ["salary_in_usd"]
+        "fields": ["salary_in_usd", "name"]
       }
     },
-    {"calculate": "datum.salary_in_usd", "as": "salary"} 
+    {"calculate": "datum.salary_in_usd", "as": "Average Salary"} ,
+    {"calculate": "datum.name", "as": "Name"}
   ],
 
   "mark": { "type": "geoshape", "color": "lightgray" },
   "encoding": {
     "color": {
-      "field": "salary",
+      "field": "Average Salary",
       "type": "quantitative",
       "condition": {"test": "datum.salary_in_usd == 0", "value": "lightgrey"}
-    }
+    },
+    "tooltip": [
+      {"field": "Name"},
+      {"field": "Average Salary"}
+    ]
   }
 
 }
