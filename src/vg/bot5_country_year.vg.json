@@ -26,6 +26,9 @@
       "type": "nominal",
       "legend": {
         "title": "Country"
+      },
+      "scale": {
+        "range": ["#966700", "#8eb812", "#991d95", "#1d997e", "#eb5498"]
       }
     }
   } 
