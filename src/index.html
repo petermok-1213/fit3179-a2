@@ -24,55 +24,61 @@
             <div class="pure-u-1-5"></div>
             <div id="title" class="pure-u-3-5">
                 <h1>Maximising your salary as a Data Scientist</h1>
+                <p>This visualisation presents some factors that affect your salary as a Data Scientist, and suggest ways to maximise your salary based of the findings.</p>
             </div>
             <div class="pure-u-1-5"></div>
         </div>
 
-        <!-- Row 2: Map Vis -->
-        <div class="pure-g" id="map-container">
-            <div class="pure-u-1-5"></div>
-            <div id="vg-map"></div>
-            <div class="pure-u-1-5"></div>
-        </div>
+        <div id="where-to-word-container">        
+            <h2>Where to work?</h2>
 
-        <!-- Row 3: Map Vis Description-->
-        <div class="pure-g">
-            <div class="pure-u-1-5"></div>
-            <div class="pure-u-3-5">
-                <p>The above choropleth map shows the average salaray (in USD) of a data science job of each country from 2020 to 2022. Grey out countries indicates no data.</p>
-                <p>The map shows Malaysia has the highest average salary, despite the following linecharts showing otherwise. This is due to Malaysia only having 1 year of data, thus the Malaysian average salary is not comparable with other countries.</p>
+            <!-- Row 2: Map Vis -->
+            <div class="pure-g" id="map-container">
+                <div class="pure-u-1-5"></div>
+                <div id="vg-map"></div>
+                <div class="pure-u-1-5"></div>
             </div>
-            <div class="pure-u-1-5"></div>
+
+            <!-- Row 3: Map Vis Description-->
+            <div class="pure-g">
+                <div class="pure-u-1-5"></div>
+                <div class="pure-u-3-5">
+                    <p>The above choropleth map shows the average salaray (in USD) of a data science job of each country from 2020 to 2022. Grey out countries indicates no data.</p>
+                    <p>The map shows Malaysia has the highest average salary, despite the following linecharts showing otherwise. This is due to Malaysia only having 1 year of data, thus the Malaysian average salary is not comparable with other countries.</p>
+                </div>
+                <div class="pure-u-1-5"></div>
+            </div>
+    
+            <br> <br>
+    
+            <!-- Row 4: TopBot 5 Vis -->
+            <div class="pure-g">
+                <div class="pure-u-1-5"></div>
+                <div class="pure-u-1-5">
+                    <div id="top-5" class="pure-u-1"></div>
+                </div>
+                <div class="pure-u-1-6"></div>
+                <div class="pure-u-1-5">
+                    <div id="bot-5" class="pure-u-1"></div>
+                </div>
+                <div class="pure-u-1-5"></div>
+            </div>
+    
+            <!-- Row 5: TopBot 5 Vis Description-->
+            <div class="pure-g">
+                <div class="pure-u-1-5"></div>
+                <div class="pure-u-3-5">
+                    <p>The aboce linecharts show 10 countries with the haighest and lowest average salaries across 2020 and 2022. Notice Malaysia is not included in the left line chart, as explained before.</p>
+                    <p>For the 5 Highest Paying Countries, there's an overall decrease in average salary from 2020 to 2022, with Japan suffering the most, dropping from around $150000 in 2020 to around $50000 in 2022. The USA has been the top performer consistenly, with its average salary above/around $150000 for 3 years. Canada and the UK have been holding strong despite the massive dump of Japan and Russia.<p>
+                    <p>For the 5 Lowest Paying Countries, India and Pakistan have a huge growth in average salary from 2021 to 2022. The salary in India even surpassed that of Russia and Japan in 2022.</p>
+                    <p>To maximise the potential salary, the safests bet would be the USA, Canada and the UK, as they all had the least percentage of decrease in average salary, in comparison to other countries.</p>
+                </div>
+                <div class="pure-u-1-5"></div>
+            </div>
         </div>
 
         <br> <br>
-
-        <!-- Row 4: TopBot 5 Vis -->
-        <div class="pure-g">
-            <div class="pure-u-1-5"></div>
-            <div class="pure-u-1-5">
-                <div id="top-5" class="pure-u-1"></div>
-            </div>
-            <div class="pure-u-1-6"></div>
-            <div class="pure-u-1-5">
-                <div id="bot-5" class="pure-u-1"></div>
-            </div>
-            <div class="pure-u-1-5"></div>
-        </div>
-
-        <!-- Row 5: TopBot 5 Vis Description-->
-        <div class="pure-g">
-            <div class="pure-u-1-5"></div>
-            <div class="pure-u-3-5">
-                <p>The aboce linecharts show 10 countries with the haighest and lowest average salaries across 2020 and 2022. Notice Malaysia is not included in the left line chart, as explained before.</p>
-                <p>For the 5 Highest Paying Countries, there's an overall decrease in average salary from 2020 to 2022, with Japan suffering the most, dropping from around $150000 in 2020 to around $50000 in 2022. The USA has been the top performer consistenly, with its average salary above/around $150000 for 3 years. Canada and the UK have been holding strong despite the massive dump of Japan and Russia.<p>
-                <p>For the 5 Lowest Paying Countries, India and Pakistan have a huge growth in average salary from 2021 to 2022. The salary in India even surpassed that of Russia and Japan in 2022.</p>
-                <p>To maximise the potential salary, the safests bet would be the USA, Canada and the UK, as they all had the least percentage of decrease in average salary, in comparison to other countries.</p>
-            </div>
-            <div class="pure-u-1-5"></div>
-        </div>
-
-        <br> <br>
+        <h2>Does company size and remote ratio of a job affect salary?</h2>
 
         <!-- Row 6: Company Size and Description -->
         <div class="pure-g">
@@ -101,12 +107,22 @@
             <div class="pure-u-1-5"></div>
         </div>
 
+        <br> <br>
+
+        <!-- Row 8: Conclusion -->
+        <div class="pure-g">
+            <div class="pure-u-1-5"></div>
+            <div class="pure-u-3-5">
+                <p>Conclusion Here</p>
+            </div>
+            <div class="pure-u-1-5"></div>
+        </div>
+
         <!-- Last Row -->
         <div class="pure-g">
             <!-- Put reference/comment here -->
             <div class="pure-u-1">
-                <p><small><a href="https://github.com/petermok-1213/fit3179-a2">Github Repo</a></small></p>
-                <p><small><a href="https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries">Data Source</a></small></p>
+                <p><small><a href="https://github.com/petermok-1213/fit3179-a2">Github Repo</a></small> <small><a href="https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries">Data Source</a></small></p>
             </div>
         </div>
 
