@@ -14,7 +14,10 @@
     "x": {
       "field": "work_year",
       "type": "ordinal",
-      "title": "Year"
+      "title": "Year",
+      "axis": {
+        "labelAngle": 0
+      }
     },
     "y": {
       "field": "salary_in_usd",

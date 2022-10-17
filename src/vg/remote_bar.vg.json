@@ -14,7 +14,10 @@
       "x": {
         "field": "remote_ratio",
         "type": "ordinal",
-        "title": "Remote Ratio"
+        "title": "Remote Ratio",
+        "axis": {
+          "labelAngle": 0
+        }
       },
       "y": {
         "field": "salary_in_usd",

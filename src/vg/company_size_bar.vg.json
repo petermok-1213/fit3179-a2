@@ -14,7 +14,10 @@
       "x": {
         "field": "company_size",
         "type": "ordinal",
-        "title": "Company Size"
+        "title": "Company Size",
+        "axis": {
+          "labelAngle": 0
+        }
       },
       "y": {
         "field": "salary_in_usd",
