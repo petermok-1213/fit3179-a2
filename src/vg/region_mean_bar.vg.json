@@ -1,0 +1,39 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "height": 200,
+    "title": "Average salary of each region",
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/petermok-1213/fit3179-a2/main/data/out/region_mean_salary.csv"
+    },
+  
+    "mark": {
+      "type": "bar"
+    },
+  
+    "encoding": {
+      "y": {
+        "field": "region",
+        "type": "nominal",
+        "title": "Region",
+        "sort": "-x",
+        "axis": {
+          "labelAngle": 0
+        }
+      },
+      "x": {
+        "field": "salary_in_usd",
+        "type": "quantitative",
+        "title": "Average Salary (USD)"
+      }
+    },
+
+    "config": {
+      "axis": {"labelFont": "monospace", "titleFont": "monospace"},
+      "legend": {"labelFont": "monospace", "titleFont": "monospace"},
+      "header": {"labelFont": "monospace", "titleFont": "monospace"},
+      "mark": {"font": "monospace"},
+      "title": {"font": "serif", "subtitleFont": "monospace"}
+    }
+  }
