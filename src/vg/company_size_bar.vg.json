@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 400,
     "height": 200,
-    "title": "Average salary of each company size and remote ratio",
+    "title": "Average salary of each company size",
   
     "data": {
       "url": "https://raw.githubusercontent.com/petermok-1213/fit3179-a2/main/data/out/ratio_size_mean_salary.csv"
@@ -12,22 +12,14 @@
   
     "encoding": {
       "x": {
-        "field": "remote_ratio",
+        "field": "company_size",
         "type": "ordinal",
-        "title": "Remote Ratio"
+        "title": "Company Size"
       },
       "y": {
         "field": "salary_in_usd",
         "type": "quantitative",
         "title": "Average Salary"
-      },
-      "color": {
-        "field": "company_size",
-        "type": "nominal",
-  
-        "legend": {
-          "title": "Company Size"
-        }
       }
     }
   }
