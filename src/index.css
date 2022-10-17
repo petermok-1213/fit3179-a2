@@ -3,7 +3,8 @@ body {
 }
 
 p {
-    color: gray
+    color: gray;
+    white-space: normal;
 }
 
 h1, h2 {
@@ -19,4 +20,8 @@ h1, h2 {
 #map-container {
     justify-content: center;
     text-align: center;
+}
+
+#help {
+    margin-left: 50px;
 }
