@@ -21,5 +21,13 @@
         "type": "quantitative",
         "title": "Average Salary (USD)"
       }
+    },
+
+    "config": {
+      "axis": {"labelFont": "monospace", "titleFont": "monospace"},
+      "legend": {"labelFont": "monospace", "titleFont": "monospace"},
+      "header": {"labelFont": "monospace", "titleFont": "monospace"},
+      "mark": {"font": "monospace"},
+      "title": {"font": "serif", "subtitleFont": "monospace"}
     }
   }

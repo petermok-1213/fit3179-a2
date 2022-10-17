@@ -31,5 +31,13 @@
         "range": ["#966700", "#8eb812", "#991d95", "#1d997e", "#eb5498"]
       }
     }
-  } 
+  },
+
+  "config": {
+    "axis": {"labelFont": "monospace", "titleFont": "monospace"},
+    "legend": {"labelFont": "monospace", "titleFont": "monospace"},
+    "header": {"labelFont": "monospace", "titleFont": "monospace"},
+    "mark": {"font": "monospace"},
+    "title": {"font": "serif", "subtitleFont": "monospace"}
+  }
 }
