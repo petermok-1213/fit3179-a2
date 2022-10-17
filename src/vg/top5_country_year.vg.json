@@ -19,7 +19,7 @@
     "y": {
       "field": "salary_in_usd",
       "type": "quantitative",
-      "title": "Salary in USD"
+      "title": "Average Salary (USD)"
     },
     "color": {
       "field": "employee_residence",
