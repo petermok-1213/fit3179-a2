@@ -12,22 +12,23 @@
         <!-- Importing Pure CSS -->
         <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
 
+        <link rel="stylesheet" href="./index.css">
+
         <script src="./vgVis.js"></script>
         <title>Assignment 2</title>
     </head>
 
     <body>
-        <!-- Row 1 -->
+        <!-- Row 1: Title and Description -->
         <div class="pure-g">
             <div class="pure-u-1-5"></div>
-            <div id="title-and-desc" class="pure-u-3-5">
+            <div id="title" class="pure-u-3-5">
                 <h1>Maximising your salary as a Data Scientist</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div>
             <div class="pure-u-1-5"></div>
         </div>
 
-        <!-- Row 2 -->
+        <!-- Row 2: Map Vis -->
         <div class="pure-g">
             <div class="pure-u-1-5"></div>
             <div class="pure-u-3-5">
@@ -36,44 +37,63 @@
             <div class="pure-u-1-5"></div>
         </div>
 
+        <!-- Row 3: Map Vis Description-->
         <div class="pure-g">
             <div class="pure-u-1-5"></div>
             <div class="pure-u-3-5">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p>The above choropleth map shows the average salaray (in USD) of a data science job of each country from 2020 to 2022. Grey out countries indicates no data.</p>
+                <p>The map shows Malaysia has the highest average salary, despite the following linecharts showing otherwise. This is due to Malaysia only having 1 year of data, thus the Malaysian average salary is not comparable with other countries.</p>
             </div>
             <div class="pure-u-1-5"></div>
         </div>
 
-
-        <!-- Row 3 -->
+        <!-- Row 4: TopBot 5 Vis -->
         <div class="pure-g">
             <div class="pure-u-1-6"></div>
             <div class="pure-u-1-4">
                 <div id="top-5" class="pure-u-1"></div>
             </div>
+            <div class="pure-u-1-6"></div>
             <div class="pure-u-1-4">
                 <div id="bot-5" class="pure-u-1"></div>
             </div>
             <div class="pure-u-1-6"></div>
         </div>
 
-        <!-- Row 4 -->
+        <!-- Row 5: TopBot 5 Vis Description-->
         <div class="pure-g">
             <div class="pure-u-1-5"></div>
             <div class="pure-u-3-5">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p>The aboce linecharts show 10 countries with the haighest and lowest average salaries across 2020 and 2022. Notice Malaysia is not included in the left line chart, as explained before.</p>
+                <p>For the 5 Highest Paying Countries, there's an overall decrease in average salary from 2020 to 2022, with Japan suffering the most, dropping from around $150000 in 2020 to around $50000 in 2022. The USA has been the top performer consistenly, with its average salary above/around $150000 for 3 years. Canada and the UK have been holding strong despite the massive dump of Japan and Russia.<p>
+                <p>For the 5 Lowest Paying Countries, India and Pakistan have a huge growth in average salary from 2021 to 2022. The salary in India even surpassed that of Russia and Japan in 2022.</p>
+                <p>To maximise the potential salary, the safests bet would be the USA, Canada and the UK, as they all had the least percentage of decrease in average salary, in comparison to other countries.</p>
             </div>
             <div class="pure-u-1-5"></div>
         </div>
 
-        <!-- Row 5 -->
+        <!-- Row 6: Company Size and Description -->
         <div class="pure-g">
             <div class="pure-u-1-5"></div>
             <div class="pure-u-1-5">
-                <div id="size-remote-bar" class="pure-u-1"></div>
+                <div id="size-bar" class="pure-u-1"></div>
             </div>
             <div class="pure-u-2-5">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p>Some may assume a higher remote ratio correlates a higher average salary, but not really.</p>
+                <p>The barchart shows jobs with less than 20% of remote and jobs with more than 80% earn more than jobs with remote ratio in between. Jobs with remote ratio greater than 80% pay the highest on average.</p>
+            </div>
+            <div class="pure-u-1-5"></div>
+        </div>
+
+        <!-- Row 7: Remote Ratio and Description -->
+        <div class="pure-g">
+            <div class="pure-u-1-5"></div>
+            <div class="pure-u-1-5">
+                <div id="remote-bar" class="pure-u-1"></div>
+            </div>
+            <div class="pure-u-2-5">
+                <p>Some may assume a higher remote ratio correlates a higher average salary, but not really.</p>
+                <p>The barchart shows jobs with less than 20% of remote and jobs with more than 80% earn more than jobs with remote ratio in between. Jobs with remote ratio greater than 80% pay the highest on average.</p>
             </div>
             <div class="pure-u-1-5"></div>
         </div>
